@@ -32,13 +32,13 @@ public class App
 
 
         // below is to simulate multiple entrances at same time
-        ExecutorService enteranceExecuter = Executors.newFixedThreadPool(3);
-
-        for(int i=0 ; i < 110; i++) {
-            int finalI = i;
-            enteranceExecuter.submit(() -> parkVehicles(entranceGate, finalI));
-
-        }
+//        ExecutorService enteranceExecuter = Executors.newFixedThreadPool(3);
+//
+//        for(int i=0 ; i < 110; i++) {
+//            int finalI = i;
+//            enteranceExecuter.submit(() -> parkVehicles(entranceGate, finalI));
+//
+//        }
 
 
 //        park100Vehicles(entranceGate);
